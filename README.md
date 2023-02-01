@@ -6,9 +6,9 @@ SEA:ME 3rd Project
 
 # [Table of Contents](#table-of-contents)
 - [Basics of Yocto](#basics-of-yocto)
-  * [[Follow this link for key concepts.](https://www.yoctoproject.org/software-overview/)](#-follow-this-link-for-key-concepts--https---wwwyoctoprojectorg-software-overview--)
+  * [[Follow this link for key concepts.](https://www.yoctoproject.org/software-overview/)]
 - [Start Yocto on macOS with docker](#start-yocto-on-macos-with-docker)
-  * [[Creating a Volume for Yocto Resource Management](https://github.com/crops/docker-win-mac-docs/wiki/Mac-Instructions)](#-creating-a-volume-for-yocto-resource-management--https---githubcom-crops-docker-win-mac-docs-wiki-mac-instructions-)
+  * [[Creating a Volume for Yocto Resource Management](https://github.com/crops/docker-win-mac-docs/wiki/Mac-Instructions)]
   * [Install docker image for Yocto](#install-docker-image-for-yocto)
   * [Download the required file in the docker container for yocto project](#download-the-required-file-in-the-docker-container-for-yocto-project)
 - [Set the environment to start Yocto](#set-the-environment-to-start-yocto)
@@ -18,17 +18,17 @@ SEA:ME 3rd Project
   * [Create custom layer](#create-custom-layer)
   * [Base task flow](#base-task-flow)
   * [Create custom image recipe](#create-custom-image-recipe)
-  * [do_fetch(), do_unpack(), do_patch()](#do-fetch----do-unpack----do-patch--)
+  * [do_fetch(), do_unpack(), do_patch()](#do_fetch-do_unpack-do_patch)
     + [Required variable in recipes](#required-variable-in-recipes)
     + [Protocols Supported by Yocto](#protocols-supported-by-yocto)
     + [Import source files and release them to temporary directories](#import-source-files-and-release-them-to-temporary-directories)
-    + [Options SRC_URI with git](#options-src-uri-with-git)
-  * [do_configure(), do_compile()](#do-configure----do-compile--)
-    + [do_configure()](#do-configure--)
-    + [do_compile()](#do-compile--)
-  * [do_install()](#do-install--)
+    + [Options SRC_URI with git](#options-src_uri-with-git)
+  * [do_configure(), do_compile()](#do_configure-do_compile)
+    + [do_configure()](#do-configure)
+    + [do_compile()](#do-compile)
+  * [do_install()](#do-install)
     + [install option](#install-option)
-  * [do_package()](#do-package--)
+  * [do_package()](#do-package)
 
 # Basics of Yocto
 - On the official website of Yocto explained as follows,  ```The Yocto Project (YP) is an open-source collaboration project that helps developers create custom Linux-based systems regardless of the hardware architecture. ```
